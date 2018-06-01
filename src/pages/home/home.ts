@@ -13,5 +13,10 @@ export class HomePage {
 
   contacto(){
     this.navCtrl.push("ContactoPage")
+
+
+  } 
+  ir_pagina2(){
+  	this.navCtrl.push("SegundaPage");
   }
 }
