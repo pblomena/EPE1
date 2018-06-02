@@ -20,6 +20,10 @@ export class HomePage {
     
   } 
   ir_pagina3(){
-  	this.navCtrl.push("TerceraPage");
+    this.navCtrl.push("TerceraPage");
+    
+  } 
+  ir_pagina4(){
+  	this.navCtrl.push("CuartaPage");
   }
 }
